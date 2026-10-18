@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed01ae69d90c04fe6a7d02e44f85d2b3, type: 3}
+  m_Name: RockTuning
+  m_EditorClassIdentifier: Assembly-CSharp::RockTuning
+  rockRadius: 0.07
+  rockSeed: 7
+  rockCuts: 11
+  rockCutDepthMin: 0.55
+  rockCutDepthMax: 0.85
+  rockSquash: {x: 1.15, y: 0.78, z: 0.95}
+  rockSurfaceJitter: 0.008
+  rockMass: 1.2
+  rockFriction: 0.6
+  rockStaticFriction: 0.75
+  rockBounciness: 0.3
+  linearDamping: 0.02
+  angularDamping: 0.12
+  maxAngularVelocity: 200
+  settleSpeed: 0.4
+  settleAngularSpeed: 3
+  settleLinearDamping: 1.5
+  settleAngularDamping: 4
+  kickableSpeed: 1.2
+  kickSpeedMin: 1
+  kickSpeedMax: 12
+  kickLiftMin: 3
+  kickLiftMax: 20
+  kickRollSpin: 0.35
+  kickRandomSpin: 0.35
+  maxSteerAngle: 40
+  steerSensitivity: 0.85
+  swipeMinLength: 0.05
+  swipeFullLength: 0.4
+  swipeSpeedMin: 0.3
+  swipeSpeedFull: 3.5
+  swipePowerCurve: 1.3
+  swipeFlickWindow: 0.08
+  cameraFov: 68
+  cameraDistance: 1
+  cameraHeight: 0.45
+  cameraLookHeight: 0.06
+  cameraLookAhead: 2
+  cameraVerticalFollow: 0.4
+  cameraSmoothTime: 0.22
+  cameraLookSmoothTime: 0.06
+  cameraYawFollow: 0.3
+  cameraYawSharpness: 2
+  cameraShake: 1.2
+  roadWidth: 7
+  segmentLength: 14
+  groundWidth: 300
+  segmentsAhead: 22
+  segmentsBehind: 3
+  roadFriction: 0.7
+  roadBounciness: 0.2
+  floatingOriginThreshold: 1000
+  impactHapticMinSpeed: 0.8
+  impactHapticFullSpeed: 6

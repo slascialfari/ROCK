@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Old staging copy of the scripts (the real code lives in RockGame/Assets)
+/UnityAssets/
+
+# Unity generated folders
+RockGame/[Ll]ibrary/
+RockGame/[Tt]emp/
+RockGame/[Oo]bj/
+RockGame/[Ll]ogs/
+RockGame/[Uu]ser[Ss]ettings/
+RockGame/[Mm]emoryCaptures/
+RockGame/[Rr]ecordings/
+RockGame/[Bb]uild/
+RockGame/[Bb]uilds/
+
+# IDE / generated project files
+RockGame/.vs/
+RockGame/.vscode/
+RockGame/.idea/
+RockGame/*.csproj
+RockGame/*.sln
+RockGame/*.slnx
+RockGame/*.user
+RockGame/*.pidb
+RockGame/*.booproj
+RockGame/*.svd
+RockGame/*.pdb
+RockGame/*.mdb
+RockGame/*.opendb
+RockGame/*.VC.db
+RockGame/*.apk
+RockGame/*.aab
+RockGame/*.unitypackage
+RockGame/sysinfo.txt
+RockGame/crashlytics-build.properties
